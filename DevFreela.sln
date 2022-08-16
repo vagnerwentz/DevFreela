@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.API", "DevFreela.API\DevFreela.API.csproj", "{2C435AA3-E72F-41CE-9317-B2A68E728EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Core", "DevFreela.Core\DevFreela.Core.csproj", "{0C7A3D83-9412-4C3B-9113-EAFF47921F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C435AA3-E72F-41CE-9317-B2A68E728EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C435AA3-E72F-41CE-9317-B2A68E728EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C435AA3-E72F-41CE-9317-B2A68E728EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C435AA3-E72F-41CE-9317-B2A68E728EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7A3D83-9412-4C3B-9113-EAFF47921F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7A3D83-9412-4C3B-9113-EAFF47921F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7A3D83-9412-4C3B-9113-EAFF47921F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7A3D83-9412-4C3B-9113-EAFF47921F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
