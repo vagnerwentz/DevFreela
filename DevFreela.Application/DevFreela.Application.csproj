@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="InputModel\" />
+    <None Remove="ViewModel\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Services\Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="InputModel\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
+    <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
+  </ItemGroup>
+</Project>

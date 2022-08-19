@@ -1,15 +1,21 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.Core FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Services/Implementations/ProjectService.cs">
+    <Files>
+      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="29" Column="37" />
+      <File FileName="DevFreela.Application/Services/Implementations/ProjectService.cs" Line="31" Column="53" />
+      <File FileName="DevFreela.Application/ViewModel/ProjectDetailsViewModel.cs" Line="30" Column="25" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DevFreela" expanded="True" selected="True" />
+          <Node name="DevFreela" expanded="True">
+            <Node name="DevFreela.API" expanded="True" />
+            <Node name="DevFreela.Application" expanded="True" />
+            <Node name="DevFreela.Infrastructure" expanded="True">
+              <Node name="Persistence" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -17,7 +23,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <DisabledProjects>
-    <String>DevFreela.Core/DevFreela.Core.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.DevFreela.Application FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

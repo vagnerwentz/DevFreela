@@ -68,6 +68,12 @@ namespace DevFreela.Core.Entities
             get;
             private set;
         }
+
+        public void CancelProject()
+        {
+            if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.Created)
+                Status = ProjectStatusEnum.Canceled;
+        }
     }
 }
 

@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "DevFreela.API/1.0.0": {
         "dependencies": {
-          "DevFreela.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {

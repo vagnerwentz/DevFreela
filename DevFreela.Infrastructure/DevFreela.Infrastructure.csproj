@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Persistence\" />
+    <None Remove="Persistence\Repositories\" />
+    <None Remove="CloudServices\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CloudServices\" />
+    <Folder Include="Persistence\" />
+    <Folder Include="Persistence\Repositories\" />
+    <Folder Include="CloudServices\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
+  </ItemGroup>
+</Project>
