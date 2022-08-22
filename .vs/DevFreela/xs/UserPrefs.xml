@@ -1,17 +1,33 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Services/Implementations/ProjectService.cs">
+  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.API/Controllers/UsersController.cs">
     <Files>
-      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="29" Column="37" />
-      <File FileName="DevFreela.Application/Services/Implementations/ProjectService.cs" Line="31" Column="53" />
-      <File FileName="DevFreela.Application/ViewModel/ProjectDetailsViewModel.cs" Line="30" Column="25" />
+      <File FileName="DevFreela.API/Program.cs" Line="19" Column="37" />
+      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="1" Column="1" />
+      <File FileName="DevFreela.Infrastructure/Persistence/DevFreelaDbContext.cs" Line="17" Column="14" />
+      <File FileName="DevFreela.Application/Services/Interfaces/IProjectService.cs" Line="10" Column="29" />
+      <File FileName="DevFreela.API/Controllers/UsersController.cs" Line="1" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DevFreela" expanded="True">
-            <Node name="DevFreela.API" expanded="True" />
-            <Node name="DevFreela.Application" expanded="True" />
+            <Node name="DevFreela.API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="DevFreela.Application" expanded="True">
+              <Node name="InputModel" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Implementations" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True" />
+            </Node>
             <Node name="DevFreela.Infrastructure" expanded="True">
               <Node name="Persistence" expanded="True" />
             </Node>
@@ -23,12 +39,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DevFreela.Application FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
