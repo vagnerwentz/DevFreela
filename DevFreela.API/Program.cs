@@ -1,4 +1,3 @@
-using DevFreela.API.Models;
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Infrastructure.Persistence;
@@ -6,12 +5,17 @@ using DevFreela.Infrastructure.Persistence;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Configure the OpeningTimeOption
-builder.Services.Configure<OpeningTimeOption>(builder.Configuration.GetSection("OpeningTime"));
+
+#region "[Adding option]"
+//Configure the OpeningTimeOption
+//builder.Services.Configure<OpeningTimeOption>(builder.Configuration.GetSection("OpeningTime"));
+#endregion
 
 #region "[Dependency Injection]"
 builder.Services.AddSingleton<DevFreelaDbContext>();
 builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ISkillService, SkillService>();
 #endregion
 
 builder.Services.AddControllers();

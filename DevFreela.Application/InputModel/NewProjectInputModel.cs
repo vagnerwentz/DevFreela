@@ -1,5 +1,4 @@
-﻿using System;
-namespace DevFreela.Application.InputModel
+﻿namespace DevFreela.Application.InputModel
 {
     public class NewProjectInputModel
     {

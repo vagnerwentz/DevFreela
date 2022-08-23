@@ -2,11 +2,6 @@
 using DevFreela.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-class ExampleClass
-{
-
-}
-
 namespace DevFreela.API.Controllers
 {
     [Route("api/projects")]
