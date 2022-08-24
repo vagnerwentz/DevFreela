@@ -1,10 +1,27 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Infrastructure/Persistence/DevFreelaDbContext.cs">
+    <Files>
+      <File FileName="DevFreela.Infrastructure/Persistence/DevFreelaDbContext.cs" Line="46" Column="17" />
+      <File FileName="DevFreela.Core/Entities/Project.cs" Line="41" Column="1" />
+      <File FileName="DevFreela.Core/Entities/UserSkill.cs" Line="10" Column="1" />
+      <File FileName="DevFreela.Core/Entities/User.cs" Line="38" Column="1" />
+      <File FileName="DevFreela.Core/Entities/ProjectComment.cs" Line="15" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DevFreela" expanded="True" />
+          <Node name="DevFreela" expanded="True">
+            <Node name="DevFreela.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="DevFreela.Infrastructure" expanded="True">
+              <Node name="Persistence" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -15,7 +32,4 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

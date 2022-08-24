@@ -13,12 +13,14 @@
     <None Remove="CloudServices\Interfaces\" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Persistence\Configurations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CloudServices\" />
     <Folder Include="Persistence\" />
     <Folder Include="Persistence\Repositories\" />
     <Folder Include="CloudServices\Interfaces\" />
+    <Folder Include="Persistence\Configurations\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
