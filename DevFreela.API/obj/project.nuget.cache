@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "uEN/lE13RMRS3bWcSMU85K7uw7JFEZoelAwJNbDexBXnnqCDzO076g/w+5E6d0wqjDKp04v52mtF3vC4rJm5qw==",
+  "dgSpecHash": "slprvenGXykwEkBr9ui6H7GkTMkQJnDm+fDUuCMbrt2pj4RuyTo0MyXRqCxROAHEG0sCQ923sP0VVnF9ehK95Q==",
   "success": true,
   "projectFilePath": "/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/DevFreela.API.csproj",
   "expectedPackageFiles": [
+    "/Users/vagnerwentz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.8/microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.8/microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.design/6.0.8/microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.8/microsoft.entityframeworkcore.relational.6.0.8.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.8/microsoft.entityframeworkcore.sqlserver.6.0.8.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

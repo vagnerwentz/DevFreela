@@ -1,6 +1,7 @@
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.Configure<OpeningTimeOption>(builder.Configuration.GetSection("OpeningTime"));
 #endregion
 
+#region "[Database]"
+var connectionString = builder.Configuration.GetConnectionString("DevFreela");
+builder.Services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServer(connectionString));
+#endregion
+
 #region "[Dependency Injection]"
-builder.Services.AddSingleton<DevFreelaDbContext>();
 builder.Services.AddScoped<IProjectService, ProjectService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ISkillService, SkillService>();
