@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/zIkC1gMiAG2m6RrUMyxQVk/87MRZ3Jtu54o6oClkGzdtIV3v1AsXMTDaCyTT9gXW2fpUkd7JZwUBqSsJBJSoQ==",
+  "dgSpecHash": "uwUjfFBh0A+FxZSAw7FyjZkEKcGLSf59FXsB7e4onDCAFeAP5FyrndZnpk6GxTmH/hYex53uwtd2+mvFggcFkw==",
   "success": true,
   "projectFilePath": "/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.Application/DevFreela.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/vagnerwentz/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

@@ -1,6 +1,13 @@
+using DevFreela.Application.Commands.ProjectCommands.CreateProject;
+using DevFreela.Application.Commands.ProjectCommands.CreateComment;
+using DevFreela.Application.Commands.ProjectCommands.DeleteProject;
+using DevFreela.Application.Commands.ProjectCommands.UpdateProject;
+using DevFreela.Application.Commands.ProjectCommands.StartProject;
+using DevFreela.Application.Commands.ProjectCommands.FinishProject;
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Infrastructure.Persistence;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,10 +27,19 @@ builder.Services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServe
 #region "[Dependency Injection]"
 builder.Services.AddScoped<IProjectService, ProjectService>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<ISkillService, SkillService>();
 #endregion
 
 builder.Services.AddControllers();
+
+// Will search all classes at the Application Assembly, that implements the IRequestHandler and associate handler to each respective command
+builder.Services.AddMediatR(typeof(CreateProjectCommand));
+builder.Services.AddMediatR(typeof(CreateCommentCommand));
+builder.Services.AddMediatR(typeof(DeleteProjectCommand));
+builder.Services.AddMediatR(typeof(UpdateProjectCommand));
+builder.Services.AddMediatR(typeof(StartProjectCommand));
+builder.Services.AddMediatR(typeof(FinishProjectCommand));
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

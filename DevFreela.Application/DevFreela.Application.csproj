@@ -12,6 +12,26 @@
     <None Remove="Services\" />
     <None Remove="Services\Interfaces\" />
     <None Remove="Services\Implementations\" />
+    <None Remove="Dapper" />
+    <None Remove="Commands\" />
+    <None Remove="Queries\" />
+    <None Remove="MediatR" />
+    <None Remove="Commands\Project\" />
+    <None Remove="Commands\Project\CreateProject\" />
+    <None Remove="Commands\Project\StartProject\" />
+    <None Remove="Commands\Project\CreateComment\" />
+    <None Remove="Commands\ProjectCommands\CreateComment\" />
+    <None Remove="Commands\ProjectCommands\DeleteProject\" />
+    <None Remove="Commands\ProjectCommands\UpdateProject\" />
+    <None Remove="Commands\ProjectCommands\StartProject\" />
+    <None Remove="Commands\ProjectCommands\FinishProject\" />
+    <None Remove="Queries\SkillQueries\" />
+    <None Remove="Queries\UserQueries\" />
+    <None Remove="Queries\ProjectQueries\" />
+    <None Remove="Queries\ProjectQueries\GetAllProjects\" />
+    <None Remove="Queries\UserQueries\GetUser\" />
+    <None Remove="Queries\ProjectQueries\GetProjectById\" />
+    <None Remove="Queries\SkillQueries\GetAllSkill\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InputModel\" />
@@ -19,9 +39,29 @@
     <Folder Include="Services\" />
     <Folder Include="Services\Interfaces\" />
     <Folder Include="Services\Implementations\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Commands\ProjectCommands\" />
+    <Folder Include="Commands\ProjectCommands\CreateProject\" />
+    <Folder Include="Commands\ProjectCommands\CreateComment\" />
+    <Folder Include="Commands\ProjectCommands\DeleteProject\" />
+    <Folder Include="Commands\ProjectCommands\UpdateProject\" />
+    <Folder Include="Commands\ProjectCommands\StartProject\" />
+    <Folder Include="Commands\ProjectCommands\FinishProject\" />
+    <Folder Include="Queries\SkillQueries\" />
+    <Folder Include="Queries\UserQueries\" />
+    <Folder Include="Queries\ProjectQueries\" />
+    <Folder Include="Queries\ProjectQueries\GetAllProjects\" />
+    <Folder Include="Queries\UserQueries\GetUser\" />
+    <Folder Include="Queries\ProjectQueries\GetProjectById\" />
+    <Folder Include="Queries\SkillQueries\GetAllSkills\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
   </ItemGroup>
 </Project>

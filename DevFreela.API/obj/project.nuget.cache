@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "slprvenGXykwEkBr9ui6H7GkTMkQJnDm+fDUuCMbrt2pj4RuyTo0MyXRqCxROAHEG0sCQ923sP0VVnF9ehK95Q==",
+  "dgSpecHash": "u0GY5Ep7rp7VadAxOAa7O+rjQ6nFLMCcbUwV+yVNxcs7HleYgtKWXWWbnvjVKDIVYc7mBh2NTAOMuJwHYRqe7g==",
   "success": true,
   "projectFilePath": "/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/DevFreela.API.csproj",
   "expectedPackageFiles": [
+    "/Users/vagnerwentz/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
