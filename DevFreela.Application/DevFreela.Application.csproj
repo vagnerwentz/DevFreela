@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="InputModel\" />
     <None Remove="ViewModel\" />
-    <None Remove="Services\" />
-    <None Remove="Services\Interfaces\" />
-    <None Remove="Services\Implementations\" />
     <None Remove="Dapper" />
     <None Remove="Commands\" />
     <None Remove="Queries\" />
@@ -32,13 +28,11 @@
     <None Remove="Queries\UserQueries\GetUser\" />
     <None Remove="Queries\ProjectQueries\GetProjectById\" />
     <None Remove="Queries\SkillQueries\GetAllSkill\" />
+    <None Remove="Commands\UserCommands\" />
+    <None Remove="Commands\UserCommands\CreateUser\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="InputModel\" />
     <Folder Include="ViewModel\" />
-    <Folder Include="Services\" />
-    <Folder Include="Services\Interfaces\" />
-    <Folder Include="Services\Implementations\" />
     <Folder Include="Commands\" />
     <Folder Include="Queries\" />
     <Folder Include="Commands\ProjectCommands\" />
@@ -55,6 +49,8 @@
     <Folder Include="Queries\UserQueries\GetUser\" />
     <Folder Include="Queries\ProjectQueries\GetProjectById\" />
     <Folder Include="Queries\SkillQueries\GetAllSkills\" />
+    <Folder Include="Commands\UserCommands\" />
+    <Folder Include="Commands\UserCommands\CreateUser\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
