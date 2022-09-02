@@ -1,5 +1,7 @@
 using DevFreela.Application.Commands.ProjectCommands.CreateProject;
+using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
+using DevFreela.Infrastructure.Persistence.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,6 +21,10 @@ builder.Services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServe
 
 #region "[Dependency Injection]"
 #endregion
+
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<ISkillRepository, SkillRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddControllers();
 

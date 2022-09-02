@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wVZPT1f+hgGcFvhNVhlG5XZH5i9228ZhdM899Bb9CPMEkrNopPv4Hu8lgm2CO4puk3T/GYn4HwOk5L50ekK7uw==",
+  "dgSpecHash": "gZoChPWb6bHZgwzL99k4fEV+F8hAAjyg72bSdjfwb/ZDHs4GShYHUNkXZ9/UogzVRjdGjNy+kPYj7kgCWJI44A==",
   "success": true,
   "projectFilePath": "/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.Infrastructure/DevFreela.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/vagnerwentz/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
