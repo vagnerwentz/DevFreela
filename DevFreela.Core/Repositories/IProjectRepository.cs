@@ -4,11 +4,13 @@ namespace DevFreela.Core.Repositories
 {
     public interface IProjectRepository
     {
+        Task DeleteProjectAsync();
+        Task UpdateProjectAsync();
+        Task FinishProjectaAsync();
+        Task StartProjectAsync(Project project);
+        Task CreateProjectAsync(Project project);
         Task<List<Project>> GetAllProjectsAsync();
         Task<Project> GetProjectByIdAsync(int id);
-        Task CreateProjectAsync(Project project);
-        Task DeleteProjectAsync(Project project);
-        Task StartProjectAsync(Project project);
     }
 }
 

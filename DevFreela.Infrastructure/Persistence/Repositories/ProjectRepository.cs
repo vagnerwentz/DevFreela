@@ -38,9 +38,8 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task DeleteProjectAsync(Project project)
+        public async Task DeleteProjectAsync()
         {
-            project.CancelProject();
             await _dbContext.SaveChangesAsync();
         }
 
@@ -53,6 +52,16 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
                 var query = "UPDATE Project SET Status = @status, StartedAt = @startedAt WHERE Id = @id";
                 await sqlConnection.ExecuteAsync(query, new { status = project.Status, startedAt = project.StartedAt, project.Id });
             }
+        }
+
+        public async Task FinishProjectaAsync()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateProjectAsync()
+        {
+            await _dbContext.SaveChangesAsync();
         }
     }
 }
