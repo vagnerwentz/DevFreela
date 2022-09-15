@@ -15,6 +15,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Persistence\Configurations\" />
     <None Remove="Dapper" />
+    <None Remove="Auth\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CloudServices\" />
@@ -22,6 +23,7 @@
     <Folder Include="Persistence\Repositories\" />
     <Folder Include="CloudServices\Interfaces\" />
     <Folder Include="Persistence\Configurations\" />
+    <Folder Include="Auth\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />

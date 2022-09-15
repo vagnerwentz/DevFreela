@@ -1,33 +1,18 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Core/Repositories/IProjectRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Infrastructure/Auth/AuthService.cs">
     <Files>
-      <File FileName="DevFreela.Infrastructure/Persistence/Repositories/ProjectRepository.cs" Line="65" Column="10" />
-      <File FileName="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs" Line="27" Column="1" />
-      <File FileName="DevFreela.Infrastructure/Persistence/Repositories/UserRepository.cs" Line="29" Column="1" />
-      <File FileName="DevFreela.Core/Repositories/IUserRepository.cs" Line="12" Column="1" />
-      <File FileName="DevFreela.Core/Repositories/IProjectRepository.cs" Line="17" Column="1" />
+      <File FileName="DevFreela.Core/Servoces/IAuthService.cs" Line="9" Column="1" />
+      <File FileName="DevFreela.Infrastructure/Auth/AuthService.cs" Line="30" Column="14" />
+      <File FileName="DevFreela.API/appsettings.json" Line="23" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DevFreela" expanded="True">
-            <Node name="DevFreela.Application" expanded="True">
-              <Node name="Commands" expanded="True" />
-            </Node>
-            <Node name="DevFreela.Core" expanded="True">
-              <Node name="Repositories" expanded="True" />
-            </Node>
+            <Node name="DevFreela.API" expanded="True" />
+            <Node name="DevFreela.Core" expanded="True" />
             <Node name="DevFreela.Infrastructure" expanded="True">
-              <Node name="Persistence" expanded="True">
-                <Node name="Repositories" expanded="True" />
-              </Node>
+              <Node name="Auth" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -37,4 +22,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

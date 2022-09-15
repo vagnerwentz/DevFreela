@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VGN/X/6dVYWpRHldz8PcZa4k60/kwsKHMWvflMYYKz1I7AhjyX5ILy1VHPtOOb1XCGXxs51TiHxr9bh9M9CMBA==",
+  "dgSpecHash": "X7kRY9UbxUl+hVV+tTn4vwuyclo2HcdMTWxQ3G5lXTh/bI9XXIALqSDD2+5SWMgPlDKtHdWQo7ECep+TfGJzxg==",
   "success": true,
   "projectFilePath": "/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/DevFreela.API.csproj",
   "expectedPackageFiles": [
     "/Users/vagnerwentz/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/fluentvalidation/11.2.0/fluentvalidation.11.2.0.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/fluentvalidation.aspnetcore/11.2.1/fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.2.0/fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",

@@ -30,6 +30,10 @@
     <None Remove="Queries\SkillQueries\GetAllSkill\" />
     <None Remove="Commands\UserCommands\" />
     <None Remove="Commands\UserCommands\CreateUser\" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Validators\" />
+    <None Remove="Validators\ProjectValidator\" />
+    <None Remove="Validators\UserValidator\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />
@@ -51,6 +55,9 @@
     <Folder Include="Queries\SkillQueries\GetAllSkills\" />
     <Folder Include="Commands\UserCommands\" />
     <Folder Include="Commands\UserCommands\CreateUser\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Validators\ProjectValidator\" />
+    <Folder Include="Validators\UserValidator\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
@@ -59,5 +66,6 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.1" />
   </ItemGroup>
 </Project>

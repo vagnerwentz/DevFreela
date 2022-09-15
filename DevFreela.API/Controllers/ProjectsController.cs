@@ -24,9 +24,6 @@ namespace DevFreela.API.Controllers
             [FromBody] CreateProjectCommand createProjectModel
         )
         {
-            if (createProjectModel.Title.Length > 50) return BadRequest();
-
-
             var id = await _mediator.Send(createProjectModel);
 
             return CreatedAtAction(
