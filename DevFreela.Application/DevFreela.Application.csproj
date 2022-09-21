@@ -34,6 +34,7 @@
     <None Remove="Validators\" />
     <None Remove="Validators\ProjectValidator\" />
     <None Remove="Validators\UserValidator\" />
+    <None Remove="Commands\SignInCommands\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />
@@ -58,6 +59,7 @@
     <Folder Include="Validators\" />
     <Folder Include="Validators\ProjectValidator\" />
     <Folder Include="Validators\UserValidator\" />
+    <Folder Include="Commands\SignInCommands\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />

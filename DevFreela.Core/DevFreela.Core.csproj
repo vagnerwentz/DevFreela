@@ -12,7 +12,6 @@
     <None Remove="Enums\" />
     <None Remove="Repositories\" />
     <None Remove="DTOs\" />
-    <None Remove="Servoces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -20,6 +19,5 @@
     <Folder Include="Enums\" />
     <Folder Include="Repositories\" />
     <Folder Include="DTOs\" />
-    <Folder Include="Servoces\" />
   </ItemGroup>
 </Project>

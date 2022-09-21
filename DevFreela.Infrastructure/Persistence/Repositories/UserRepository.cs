@@ -23,6 +23,20 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
             await _dbContext.User.AddAsync(user, cancellationToken);
             await _dbContext.SaveChangesAsync();
         }
+
+        public async Task<User> GetUserByEmailAndPasswordAsync(string email, string passwordHash)
+        {
+            return await _dbContext.User.SingleOrDefaultAsync(u => u.Email == email && u.Password == passwordHash);
+        }
+
+        public async Task<bool> FindEmailAsync(string email)
+        {
+            var user = await _dbContext.User.SingleOrDefaultAsync(u => u.Email == email);
+
+            if (user is null) return false;
+
+            return true;
+        }
     }
 }
 
