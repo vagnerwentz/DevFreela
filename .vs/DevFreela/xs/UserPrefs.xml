@@ -1,9 +1,4 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs">
     <Files>
       <File FileName="DevFreela.API/Controllers/UsersController.cs" Line="49" Column="29" />
@@ -51,5 +46,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.UnitTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>
