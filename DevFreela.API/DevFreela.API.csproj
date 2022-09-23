@@ -17,6 +17,7 @@
     </PackageReference>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,6 +36,7 @@
     <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
     <None Remove="MediatR" />
     <None Remove="Filters\" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Filters\" />

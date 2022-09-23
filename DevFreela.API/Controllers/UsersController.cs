@@ -2,12 +2,14 @@
 using DevFreela.Application.Commands.UserCommands.CreateUser;
 using DevFreela.Application.Queries.UserQueries.GetUser;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.API.Controllers
 {
     [ApiController]
     [Route("api/users")]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -29,17 +31,26 @@ namespace DevFreela.API.Controllers
             return Ok(user);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(
+        [HttpPost("signup")]
+        [AllowAnonymous]
+        public async Task<IActionResult> SignUp(
             [FromBody] CreateUserCommand createUser
         )
         {
-            var id = await _mediator.Send(createUser);
+            try
+            {
+                var id = await _mediator.Send(createUser);
 
-            return CreatedAtAction(nameof(GetById), new { id }, createUser);
+                return CreatedAtAction(nameof(GetById), new { id }, createUser);
+            } catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
         }
 
         [HttpPost("signin")]
+        [AllowAnonymous]
         public async Task<IActionResult> SignIn([FromBody] SignInCommand signInData)
         {
             var signInViewModel = await _mediator.Send(signInData);
@@ -47,6 +58,12 @@ namespace DevFreela.API.Controllers
             if (signInViewModel is null) return BadRequest();
 
             return Ok(signInViewModel);
+            //"email": "vagner.wentz@gmail.com",
+            //"password": "9XEb@123",
+            //"role": "Client",
+            //"email": "bruna.wentz@gmail.com",
+            //"password": "9XEb@123",
+            //"role": "Freelancer",
         }
 
     }

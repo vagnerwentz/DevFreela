@@ -1,6 +1,7 @@
 ﻿using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
 using DevFreela.Core.Services;
+using DevFreela.Core.Exceptions;
 using MediatR;
 
 namespace DevFreela.Application.Commands.UserCommands.CreateUser
@@ -22,7 +23,7 @@ namespace DevFreela.Application.Commands.UserCommands.CreateUser
 
             if (emailAlreadyExists)
             {
-                return -1;
+                throw new EmailAlreadyExistsException();
             }
 
             var passwordHash = _authService.ComputeSHA256Hash(request.Password);

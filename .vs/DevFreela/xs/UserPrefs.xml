@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.API/Controllers/UsersController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs">
     <Files>
-      <File FileName="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs" Line="27" Column="28" />
-      <File FileName="DevFreela.Infrastructure/Auth/AuthService.cs" Line="63" Column="61" />
-      <File FileName="DevFreela.Core/Entities/User.cs" Line="41" Column="67" />
-      <File FileName="DevFreela.API/Controllers/UsersController.cs" Line="38" Column="1" />
-      <File FileName="DevFreela.Application/Commands/SignInCommands/SignInCommand.cs" Line="13" Column="1" />
-      <File FileName="DevFreela.Application/Commands/SignInCommands/SignInCommandHandler.cs" Line="26" Column="14" />
-      <File FileName="DevFreela.Application/ViewModel/SignInViewModel.cs" Line="5" Column="59" />
-      <File FileName="DevFreela.Core/Repositories/IUserRepository.cs" Line="13" Column="1" />
-      <File FileName="DevFreela.Infrastructure/Persistence/Repositories/UserRepository.cs" Line="29" Column="116" />
+      <File FileName="DevFreela.API/Controllers/UsersController.cs" Line="49" Column="29" />
+      <File FileName="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs" Line="16" Column="46" />
+      <File FileName="DevFreela.API/Program.cs" Line="109" Column="1" />
+      <File FileName="DevFreela.Application/Commands/SignInCommands/SignInCommandHandler.cs" Line="33" Column="10" />
+      <File FileName="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommand.cs" Line="5" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,17 +18,26 @@
           <Node name="DevFreela" expanded="True">
             <Node name="DevFreela.API" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Filters" expanded="True" />
             </Node>
             <Node name="DevFreela.Application" expanded="True">
               <Node name="Commands" expanded="True">
                 <Node name="SignInCommands" expanded="True" />
+                <Node name="UserCommands" expanded="True">
+                  <Node name="CreateUser" expanded="True">
+                    <Node name="CreateUserCommandHandler.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
               <Node name="ViewModel" expanded="True" />
             </Node>
             <Node name="DevFreela.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
               <Node name="Repositories" expanded="True" />
             </Node>
             <Node name="DevFreela.Infrastructure" expanded="True">
+              <Node name="Auth" expanded="True" />
               <Node name="Persistence" expanded="True">
                 <Node name="Repositories" expanded="True" />
               </Node>
@@ -40,11 +50,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
