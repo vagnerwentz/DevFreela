@@ -6,6 +6,7 @@ namespace DevFreela.UnitTests.Core.Entities
 {
     public class ProjectTests
     {
+        // Given When Then
         [Fact(DisplayName = "Project status should be equal Created when create a project.")]
         public void ProjectStatusShouldBeCreatedWhenCreateProject()
         {

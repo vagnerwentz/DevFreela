@@ -1,40 +1,21 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.UnitTests/Core/Entities/ProjectTests.cs">
     <Files>
-      <File FileName="DevFreela.API/Controllers/UsersController.cs" Line="49" Column="29" />
-      <File FileName="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommandHandler.cs" Line="16" Column="46" />
-      <File FileName="DevFreela.API/Program.cs" Line="109" Column="1" />
-      <File FileName="DevFreela.Application/Commands/SignInCommands/SignInCommandHandler.cs" Line="33" Column="10" />
-      <File FileName="DevFreela.Application/Commands/UserCommands/CreateUser/CreateUserCommand.cs" Line="5" Column="18" />
+      <File FileName="DevFreela.UnitTests/Core/Entities/ProjectTests.cs" Line="63" Column="70" />
+      <File FileName="DevFreela.Core/Entities/Project.cs" Line="52" Column="56" NotebookId="1" />
+      <File FileName="DevFreela.Core/Enums/ProjectStatusEnum.cs" Line="6" Column="9" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DevFreela" expanded="True">
-            <Node name="DevFreela.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Filters" expanded="True" />
-            </Node>
-            <Node name="DevFreela.Application" expanded="True">
-              <Node name="Commands" expanded="True">
-                <Node name="SignInCommands" expanded="True" />
-                <Node name="UserCommands" expanded="True">
-                  <Node name="CreateUser" expanded="True">
-                    <Node name="CreateUserCommandHandler.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="ViewModel" expanded="True" />
-            </Node>
             <Node name="DevFreela.Core" expanded="True">
               <Node name="Entities" expanded="True" />
-              <Node name="Exceptions" expanded="True" />
-              <Node name="Repositories" expanded="True" />
+              <Node name="Enums" expanded="True" />
             </Node>
-            <Node name="DevFreela.Infrastructure" expanded="True">
-              <Node name="Auth" expanded="True" />
-              <Node name="Persistence" expanded="True">
-                <Node name="Repositories" expanded="True" />
+            <Node name="DevFreela.UnitTests" expanded="True">
+              <Node name="Core" expanded="True">
+                <Node name="Entities" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -43,12 +24,18 @@
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DevFreela" expanded="True" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.UnitTests FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

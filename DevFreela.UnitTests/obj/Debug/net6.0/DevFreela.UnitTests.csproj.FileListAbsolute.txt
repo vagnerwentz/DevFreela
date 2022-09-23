@@ -7,6 +7,7 @@
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/DevFreela.UnitTests.runtimeconfig.json
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/DevFreela.UnitTests.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/DevFreela.UnitTests.pdb
+/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/Castle.Core.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/Dapper.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/FluentValidation.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
@@ -34,6 +35,7 @@
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/testhost.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/Moq.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/NuGet.Frameworks.dll
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
