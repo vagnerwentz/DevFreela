@@ -1,23 +1,29 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.UnitTests/Core/Entities/ProjectTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.UnitTests/Application/Queries/ProjectQueries/GetAllProjectsQueryHandlerTests.cs">
     <Files>
-      <File FileName="DevFreela.UnitTests/Core/Entities/ProjectTests.cs" Line="63" Column="70" />
-      <File FileName="DevFreela.Core/Entities/Project.cs" Line="52" Column="56" NotebookId="1" />
-      <File FileName="DevFreela.Core/Enums/ProjectStatusEnum.cs" Line="6" Column="9" NotebookId="1" />
+      <File FileName="DevFreela.Core/Entities/Project.cs" Line="47" Column="20" />
+      <File FileName="DevFreela.UnitTests/Application/Queries/ProjectQueries/GetAllProjectsQueryHandler.cs" Line="38" Column="6" />
+      <File FileName="DevFreela.UnitTests/Core/Entities/ProjectTests.cs" Line="13" Column="31" />
+      <File FileName="DevFreela.UnitTests/Application/Commands/ProjectCommands/CreateProject/CreateProjectCommandHandlerTests.cs" Line="31" Column="22" />
+      <File FileName="DevFreela.Application/Commands/ProjectCommands/CreateProject/CreateProjectCommandHandler.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DevFreela" expanded="True">
-            <Node name="DevFreela.Core" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Enums" expanded="True" />
-            </Node>
-            <Node name="DevFreela.UnitTests" expanded="True">
-              <Node name="Core" expanded="True">
-                <Node name="Entities" expanded="True" />
+            <Node name="DevFreela.Application" expanded="True">
+              <Node name="Commands" expanded="True">
+                <Node name="ProjectCommands" expanded="True">
+                  <Node name="CreateProject" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Queries" expanded="True">
+                <Node name="ProjectQueries" expanded="True">
+                  <Node name="GetAllProjects" expanded="True" />
+                </Node>
               </Node>
             </Node>
+            <Node name="DevFreela.UnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -33,9 +39,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
