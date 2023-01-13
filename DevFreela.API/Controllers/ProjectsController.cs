@@ -1,6 +1,7 @@
 ﻿using DevFreela.Application.Commands.ProjectCommands.CreateComment;
 using DevFreela.Application.Commands.ProjectCommands.CreateProject;
 using DevFreela.Application.Commands.ProjectCommands.DeleteProject;
+using DevFreela.Application.Commands.ProjectCommands.FinishProject;
 using DevFreela.Application.Commands.ProjectCommands.UpdateProject;
 using DevFreela.Application.Queries.ProjectQueries.GetAllProjects;
 using DevFreela.Application.Queries.ProjectQueries.GetProjectById;
@@ -111,9 +112,13 @@ namespace DevFreela.API.Controllers
 
         [HttpPut("{id}/finish")]
         [Authorize(Roles = "Client")]
-        public async Task<IActionResult> Finish(int id)
+        public async Task<IActionResult> Finish(int id, [FromBody] FinishProjectCommand finishProjectCommand)
         {
-            await _mediator.Send(id);
+            finishProjectCommand.Id = id;
+
+            var result = await _mediator.Send(finishProjectCommand);
+
+            if (!result) return BadRequest("O pagamento não pôde ser processado.");
 
             return NoContent();
         }

@@ -8,6 +8,7 @@ namespace DevFreela.Core.Enums
         Suspended = 2,
         Canceled = 3,
         Finished = 4,
+        PaymentPending = 5,
     }
 }
 

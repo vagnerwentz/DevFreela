@@ -14,6 +14,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using DevFreela.Infrastructure.Payments;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 #region "[Database]"
 var connectionString = builder.Configuration.GetConnectionString("DevFreela");
+builder.Services.AddHttpClient();
 builder.Services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServer(connectionString));
 #endregion
 
@@ -36,6 +38,8 @@ builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<ISkillRepository, SkillRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IMessageBusService, IMessageBusService>();
 
 builder.Services.AddControllers(options => options.Filters.Add(typeof(ValidationFilters)));
 builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
