@@ -1,24 +1,19 @@
 ﻿<Properties StartupConfiguration="{2C435AA3-E72F-41CE-9317-B2A68E728EF0}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.Infrastructure/Payments/PaymentService.cs" relfile="DevFreela.Infrastructure/Payments/PaymentService.cs" line="24" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Infrastructure/Persistence/Repositories/ProjectRepository.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Infrastructure/MessageBus/MessageBusService.cs">
     <Files>
-      <File FileName="DevFreela.API/Program.cs" Line="119" Column="1" />
-      <File FileName="DevFreela.Infrastructure/Payments/PaymentService.cs" Line="25" Column="54" />
-      <File FileName="DevFreela.Core/Entities/Project.cs" Line="60" Column="35" />
-      <File FileName="DevFreela.Application/Commands/ProjectCommands/FinishProject/FinishProjectCommand.cs" Line="15" Column="1" />
-      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="103" Column="1" />
-      <File FileName="DevFreela.Application/Commands/ProjectCommands/FinishProject/FinishProjectCommandHandler.cs" Line="31" Column="57" />
-      <File FileName="DevFreela.Core/DTOs/PaymentInfoDTO.cs" Line="22" Column="6" />
-      <File FileName="DevFreela.Core/Repositories/IProjectRepository.cs" Line="9" Column="14" />
-      <File FileName="DevFreela.Infrastructure/Persistence/Repositories/ProjectRepository.cs" Line="57" Column="48" />
+      <File FileName="DevFreela.Infrastructure/MessageBus/MessageBusService.cs" Line="16" Column="39" />
+      <File FileName="DevFreela.Infrastructure/Payments/PaymentService.cs" Line="27" Column="39" />
+      <File FileName="DevFreela.Application/Commands/ProjectCommands/FinishProject/FinishProjectCommandHandler.cs" Line="34" Column="2" />
+      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="111" Column="10" />
+      <File FileName="DevFreela.Application/Commands/ProjectCommands/CreateProject/CreateProjectCommand.cs" Line="15" Column="1" />
+      <File FileName="DevFreela.API/Filters/ValidationFilters.cs" Line="23" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,28 +21,24 @@
           <Node name="DevFreela" expanded="True">
             <Node name="DevFreela.API" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Filters" expanded="True" />
             </Node>
             <Node name="DevFreela.Application" expanded="True">
               <Node name="Commands" expanded="True">
                 <Node name="ProjectCommands" expanded="True">
+                  <Node name="CreateProject" expanded="True" />
                   <Node name="FinishProject" expanded="True" />
                 </Node>
               </Node>
             </Node>
             <Node name="DevFreela.Core" expanded="True">
-              <Node name="DTOs" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Enums" expanded="True" />
-              <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="DevFreela.Infrastructure" expanded="True">
-              <Node name="Payments" expanded="True" />
-              <Node name="Persistence" expanded="True">
-                <Node name="Repositories" expanded="True">
-                  <Node name="ProjectRepository.cs" selected="True" />
-                </Node>
+              <Node name="MessageBus" expanded="True">
+                <Node name="MessageBusService.cs" selected="True" />
               </Node>
+              <Node name="Payments" expanded="True" />
             </Node>
           </Node>
         </State>

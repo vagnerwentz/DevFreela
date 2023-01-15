@@ -4806,7 +4806,8 @@
       "DevFreela.Core >= 1.0.0",
       "DevFreela.Infrastructure >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.1",
-      "MediatR >= 10.0.1"
+      "MediatR >= 10.0.1",
+      "RabbitMQ.Client >= 6.4.0"
     ]
   },
   "packageFolders": {
@@ -4864,6 +4865,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[10.0.1, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.4.0, )"
           }
         },
         "imports": [

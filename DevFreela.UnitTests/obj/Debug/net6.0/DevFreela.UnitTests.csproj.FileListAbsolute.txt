@@ -143,3 +143,4 @@
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/obj/Debug/net6.0/DevFreela.UnitTests.pdb
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/obj/Debug/net6.0/DevFreela.UnitTests.genruntimeconfig.cache
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/obj/Debug/net6.0/ref/DevFreela.UnitTests.dll
+/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.UnitTests/bin/Debug/net6.0/RabbitMQ.Client.dll

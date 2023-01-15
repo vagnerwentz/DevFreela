@@ -73,3 +73,4 @@
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/obj/Debug/net6.0/DevFreela.API.pdb
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/obj/Debug/net6.0/DevFreela.API.genruntimeconfig.cache
 /Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/obj/Debug/net6.0/ref/DevFreela.API.dll
+/Users/vagnerwentz/Documents/learning/NetDiretoAoPonto/DevFreela/DevFreela.API/bin/Debug/net6.0/RabbitMQ.Client.dll
