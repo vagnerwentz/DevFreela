@@ -17,7 +17,7 @@
 
 - .NET
 - Docker (SQL Server and RabbitMQ)
-- RabbitMQ (Synchronous calls to this [repository](https://github.com/vagnerwentz/DevFreela.Payments)
+- RabbitMQ (Asynchronous calls to this [repository](https://github.com/vagnerwentz/DevFreela.Payments)
 
 ## Architecture, patterns e concepts.
 
